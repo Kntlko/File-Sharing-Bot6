@@ -10,7 +10,7 @@ async def cb_handler(client: Bot, query: CallbackQuery):
     data = query.data
     if data == "about":
         await query.message.edit_text(
-            text = f"<b>○ Creator : <a href='tg://user?id={OWNER_ID}'>Klik disini</a>\n○ Telegram : <code>@bobamanies</code>\n○ Instagram : <a href='https://instagram.com/ikasptris/'>Ikasptris</a>\n○ Source Code : <a href='https://t.me/bobamanies'>Click here</a>\n○ Channel : @ikagrup2\n○ Support Group : @indoviralxx1</b>",
+            text = f"<b>○ Creator : <a href='tg://user?id={OWNER_ID}'>Klik disini</a>\n○ Pembuat Bot : <code>@baksdude</code>\n○ Instagram Creator: <a href='https://instagram.com/taaufiik25/'>Klik disini</a>\n○ Source Code : <a href='https://t.me/baksdude'>Click here</a>\n○ Channel : @indoviralxx1\n○ Support Group : @sugarbabygrup</b>",
             disable_web_page_preview = True,
             reply_markup = InlineKeyboardMarkup(
                 [
