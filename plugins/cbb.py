@@ -10,12 +10,12 @@ async def cb_handler(client: Bot, query: CallbackQuery):
     data = query.data
     if data == "about":
         await query.message.edit_text(
-            text = f"<b>○ Creator : <a href='tg://user?id={OWNER_ID}'>Klik disini</a>\n○ Pembuat Bot : <code>@baksdude</code>\n○ Instagram Creator: <a href='https://instagram.com/taaufiik25/'>Klik disini</a>\n○ Source Code : <a href='https://t.me/baksdude'>Click here</a>\n○ Channel : @indoviralxx1\n○ Support Group : @sugarbabygrup</b>",
+            text = f"<b>○ Creator : <a href='tg://user?id={OWNER_ID}'>Klik disini</a>\n○ Pembuat Bot : <code>@baksdude</code>\n○ Jasa Buat Bot: <a href='https://t.me/baksdude/'>Klik disini</a>\n○ Source Code : <a href='https://t.me/baksdude'>Click here</a>\n○ Channel : @indoviralxx1\n○ Support Group : @sugarbabygrup</b>",
             disable_web_page_preview = True,
             reply_markup = InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("🔒 Close", callback_data = "close")
+                        InlineKeyboardButton(" TUTUP ", callback_data = "close")
                     ]
                 ]
             )
